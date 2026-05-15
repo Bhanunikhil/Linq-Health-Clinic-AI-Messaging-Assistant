@@ -1,5 +1,5 @@
 {
-  "name": "linq-health-concierge",
+  "name": "linq-health-assistant",
   "version": "1.0.0",
   "description": "AI-powered medical clinic receptionist built on the Linq messaging platform",
   "main": "dist/index.js",

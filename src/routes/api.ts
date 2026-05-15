@@ -8,7 +8,7 @@ const router = Router();
  * Health check endpoint.
  */
 router.get('/', (req: Request, res: Response) => {
-    res.send('Linq Health Clinic AI Concierge is running!');
+    res.send('Linq Health Clinic AI Assistant is running!');
 });
 
 /**

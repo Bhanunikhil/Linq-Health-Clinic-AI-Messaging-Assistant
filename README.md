@@ -1,4 +1,4 @@
-# Linq Health Clinic — AI Messaging Concierge
+# Linq Health Clinic — AI Messaging Assistant
 
 An AI-powered medical clinic receptionist built on the **Linq messaging platform**. Patients interact naturally via SMS/RCS to book, manage, and cancel appointments — while clinic staff monitor everything through a real-time admin dashboard.
 
