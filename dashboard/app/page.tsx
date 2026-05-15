@@ -2,6 +2,7 @@
  * Linq Health Assistant — Admin Dashboard
  * Real-time monitoring of AI appointments and patient records.
  */
+
 'use client';
 
 import { useEffect, useState } from 'react';
