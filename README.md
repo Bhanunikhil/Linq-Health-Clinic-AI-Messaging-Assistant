@@ -2,7 +2,7 @@
 
 **Linq Health Clinic — AI Messaging Assistant** is a production-ready medical receptionist (Caroline) that automates patient interactions via SMS and RCS.
 
-Built for the Linq Partner Platform, it uses **Google Gemini 2.5 Flash** to naturally collect patient data, book appointments, and handle cancellations through text. The project includes a high-performance Express/TypeScript backend and a premium Next.js admin dashboard for real-time visibility into clinic operations, patient records, and monthly scheduling.
+Built for the Linq Partner Platform, it uses **Google Gemini** to naturally collect patient data, book appointments, and handle cancellations through text. The project includes a high-performance Express/TypeScript backend and a premium Next.js admin dashboard for real-time visibility into clinic operations, patient records, and monthly scheduling.
 
 **Key Tech:** Linq Partner API, Gemini AI, Node.js, TypeScript, Next.js.
 
@@ -29,8 +29,8 @@ Patient's Phone ──SMS/RCS──▶ Linq Partner API ──Webhook──▶ E
 
 ## Features
 
-### 🤖 AI Receptionist (Caroline)
-- Powered by **Google Gemini 2.5 Flash** with full conversation memory per chat session
+###  AI Receptionist (Caroline)
+- Powered by **Google Gemini** with full conversation memory per chat session
 - Collects patient details (Full Name, Age, Gender, Address) naturally through conversation
 - Validates appointment times against clinic hours (Mon–Fri, 8 AM – 5 PM)
 - **Action Extraction**: Parses hidden `[SYSTEM_BOOKING]` and `[SYSTEM_CANCEL]` tags from AI output to trigger real backend operations
@@ -58,7 +58,7 @@ Patient's Phone ──SMS/RCS──▶ Linq Partner API ──Webhook──▶ E
 | Layer     | Technology                          |
 |-----------|-------------------------------------|
 | Backend   | Node.js, Express, TypeScript        |
-| AI/LLM    | Google Gemini 2.5 Flash             |
+| AI/LLM    | Google Gemini Flash                 |
 | Messaging | Linq Partner API (v3, SMS/RCS)      |
 | Frontend  | Next.js 16, React 19, TypeScript    |
 | Styling   | CSS Modules (light theme)           |

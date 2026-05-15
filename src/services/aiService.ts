@@ -11,7 +11,7 @@ dotenv.config();
 const genAI = new GoogleGenerativeAI(process.env.LLM_API_KEY || '');
 
 const model = genAI.getGenerativeModel({
-    model: 'gemini-2.5-flash',
+    model: 'gemini-flash-latest',
     systemInstruction: CLINIC_SYSTEM_PROMPT
 });
 
