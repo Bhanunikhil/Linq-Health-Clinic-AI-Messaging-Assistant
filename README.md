@@ -63,9 +63,19 @@ Patient's Phone ──SMS/RCS──▶ Linq Partner API ──Webhook──▶ E
 
 ```
 Linq_Project/
-├── server.ts            # Express backend: webhook, AI, REST API, reminders
-├── linqClient.ts        # Linq Partner API wrapper (send messages)
-├── testSend.ts          # Quick test script for sending messages
+├── src/
+│   ├── config/
+│   │   └── prompts.ts       # AI instructions (Caroline's persona)
+│   ├── routes/
+│   │   ├── api.ts           # REST API routes for dashboard
+│   │   └── webhook.ts       # Linq webhook handler
+│   ├── services/
+│   │   ├── aiService.ts         # Gemini AI interactions
+│   │   ├── appointmentService.ts # Database and reminders
+│   │   └── linqClient.ts        # Linq Partner API wrapper
+│   ├── types/
+│   │   └── index.ts         # TypeScript interfaces
+│   └── index.ts             # Express app entry point
 ├── package.json
 ├── tsconfig.json
 ├── .env                 # Environment variables (not committed)

@@ -1,21 +1,21 @@
 {
-  "name": "linq_project",
+  "name": "linq-health-concierge",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI-powered medical clinic receptionist built on the Linq messaging platform",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node server.ts",
-    "dev": "nodemon server.ts",
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["linq", "healthcare", "ai", "chatbot", "gemini"],
+  "author": "Nikhil",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "axios": "^1.16.0",
-    "body-parser": "^2.2.2",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1"

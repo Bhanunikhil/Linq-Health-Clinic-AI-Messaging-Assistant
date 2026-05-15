@@ -7,3 +7,12 @@ dist/
 # Dashboard
 dashboard/node_modules/
 dashboard/.next/
+
+# Old root-level files (migrated to src/)
+server.ts
+linqClient.ts
+linqClient.js
+testSend.ts
+# AI assistant files
+AGENTS.md
+CLAUDE.md
