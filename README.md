@@ -1,6 +1,10 @@
 # Linq Health Clinic — AI Messaging Assistant
 
-An AI-powered medical clinic receptionist built on the **Linq messaging platform**. Patients interact naturally via SMS/RCS to book, manage, and cancel appointments — while clinic staff monitor everything through a real-time admin dashboard.
+**Linq Health Clinic — AI Messaging Assistant** is a production-ready medical receptionist (Caroline) that automates patient interactions via SMS and RCS.
+
+Built for the Linq Partner Platform, it uses **Google Gemini 2.5 Flash** to naturally collect patient data, book appointments, and handle cancellations through text. The project includes a high-performance Express/TypeScript backend and a premium Next.js admin dashboard for real-time visibility into clinic operations, patient records, and monthly scheduling.
+
+**Key Tech:** Linq Partner API, Gemini AI, Node.js, TypeScript, Next.js.
 
 ## Architecture
 
