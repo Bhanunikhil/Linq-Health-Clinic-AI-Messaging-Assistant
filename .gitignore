@@ -1,0 +1,9 @@
+node_modules/
+.env
+.DS_Store
+*.js.map
+dist/
+
+# Dashboard
+dashboard/node_modules/
+dashboard/.next/
